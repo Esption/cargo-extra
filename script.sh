@@ -4,7 +4,6 @@ BIN_PATH="$PWD/bin"
 flag_nightly=false;
 
 if [ "$1" == "-y" ]; then
-	echo "SETTING TO TRUE"
 	flag_nightly=true;
 fi
 
