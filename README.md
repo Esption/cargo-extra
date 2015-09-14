@@ -1,4 +1,4 @@
-A script to build various cargo commands.
+A script to build various cargo commands.  You will also need to add the `./bin/` path into your $PATH in order to use these.  If you don't know how to do that, then how to do it is add ```PATH="$PATH:/path/to/clone/bin/"``` to ~/.bashrc
 
 As of the first commit, all these came from https://github.com/kud1ing/awesome-rust
 
