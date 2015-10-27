@@ -1,9 +1,11 @@
+#!/bin/sh
+
 BASE_PATH=$PWD
 BIN_PATH="$PWD/bin"
 
 flag_nightly=false;
 
-if [ "$1" == "-y" ]; then
+if [ "$1" = "-y" ]; then
 	flag_nightly=true;
 fi
 
