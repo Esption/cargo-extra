@@ -38,10 +38,11 @@ update "https://github.com/killercup/cargo-edit.git" "cargo-edit"
 update "https://github.com/kbknapp/cargo-outdated.git" "cargo-outdated"
 update "https://github.com/passcod/cargo-watch.git" "cargo-watch"
 update "https://github.com/pwoolcoc/cargo-fmt.git" "cargo-fmt"
+update "https://github.com/DanielKeep/cargo-script.git" "cargo-script"
 
 # Those in this if statement *need* a nightly build
 if [ $flag_nightly == true ]; then
 	echo -e "\nBuilding nightly specific now.\n"
-	update "https://github.com/DanielKeep/cargo-script.git" "cargo-script"
+	echo "Currently nothing!"
 fi
 

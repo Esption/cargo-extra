@@ -11,7 +11,7 @@ Running `./script.sh` will get you
 * [cargo-fmt](https://github.com/pwoolcoc/cargo-fmt)
 * [cargo-outdated](https://github.com/kbknapp/cargo-outdated)
 * [cargo-watch](https://github.com/passcod/cargo-watch)
-
-Running `./script.sh -y` will compile the above *along with* ones that need a nightly compiler, which is currently just
 * [cargo-script](https://github.com/DanielKeep/cargo-script)
 
+Running `./script.sh -y` will compile the above *along with* ones that need a nightly compiler, which is currently just
+* Currently nothing
